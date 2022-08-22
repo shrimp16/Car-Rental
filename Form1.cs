@@ -7,3 +7,18 @@ public partial class Form1 : Form
         InitializeComponent();
     }
 }
+
+public class Car
+{
+
+    string plate;
+    string brand;
+
+    bool isRent = false;
+
+    public Car(string brand, string plate){
+        this.brand = brand;
+        this.plate = plate;
+    }
+
+}
